@@ -27,10 +27,6 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
-//    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
-    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.10'
-    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.2'
-    compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
 }
 
 test {
